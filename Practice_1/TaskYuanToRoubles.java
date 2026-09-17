@@ -11,7 +11,7 @@ public class TaskYuanToRoubles {
         
         Scanner scanner = new Scanner(System.in);                   // Инициализация объекта scanner для ввода данных
 
-        System.out.println("Перевод юаней в рубли");             // Шапка для запуска
+        System.out.println("=== | Перевод юаней в рубли | ==="); // Шапка для запуска
 
         System.out.print("Введите сумму в юанях: ");             // Приглашение ввода данных           
         yuan = scanner.nextInt();                                  // Ввод данных

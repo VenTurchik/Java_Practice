@@ -1,7 +1,7 @@
 package Practice_1;
 
 public class Car {
-    private final static int THIS_YEAR = 2026; // Текущий год
+    private final int THIS_YEAR = 2026; // Текущий год
     
     private String model;       // Модель бибики
     private String license;     // Номер бибики
