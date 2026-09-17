@@ -40,7 +40,7 @@ public class Main {
     }
 
     private static void updataCar(String Whom, Car Obj) {
-        System.out.println("Обновление полей объекта " + Whom);
+        System.out.println("\nОбновление полей объекта " + Whom + "\n");
 
         switch (Whom) {
             case "Car 1":

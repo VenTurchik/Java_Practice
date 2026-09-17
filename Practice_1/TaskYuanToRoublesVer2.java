@@ -22,12 +22,7 @@ public class TaskYuanToRoublesVer2 {
 
         roubles = ROUBLES_PER_YUAN * yuan;                         // Конвертация
 
-        System.out.printf(                                          // Вывод результата
-            "Сумма в рублях: %.2f%n", 
-            roubles
-        );
-
-        scanner.close();                                            // Закрытие сканнера, чтобы VScode не жаловался
+        System.out.println("Цена в рублях: " + roubles);
 
     }
     private static String endingYuan(int digit) {
